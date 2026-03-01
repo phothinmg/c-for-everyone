@@ -4,6 +4,18 @@
 
 #include <stdio.h>
 
+int my_factorial(unsigned int n)
+{
+ unsigned int i = n;
+ unsigned long long f = 1;
+ while (0<i)
+ {
+    f *= i;
+    i--;
+ }
+ return f;
+}
+
 /**
  * Calculate the sine function for an input x between (0, 1)
  * @param x a double between (0, 1)
@@ -18,7 +30,7 @@ double my_sine(double x)
 
     // 1. Calculate the factorials
 
-    int f_1 = 1;                                 // 1!
+    int f_1 = my_factorial(1);                                 // 1!
     int f_3 = 3 * 2 * 1;                         // 3!
     int f_5 = 5 * 4 * 3 * 2 * 1;                 // 5!
     int f_7 = 7 * 6 * 5 * 4 * 3 * 2 * 1;         // 7!
