@@ -2,13 +2,12 @@
 
 ## Overview
 
-This is my learning notes of course([C for Everyone][cfe])  from [Coursera][coursera].
+This is my learning notes of course([C for Everyone][cfe])  from  [Coursera][coursera].
 
 ## Instructor
 
-![Ira_Pohl][pif]
-
 [Professor Ira Pohl][piff]
+
 [University of California, Santa Cruz][ucsc]
 
 
